@@ -31,11 +31,11 @@ var library = [
     },
 ];
 
-// const addBooks = (book) => {
-//     console.log(library.length);
-//     library.push(book);
-//     console.log(library.length);
-// };
+const addBooks = (book) => {
+    console.log(library.length);
+    library.push(book);
+    console.log(library.length);
+};
 
 // const listOfAvailableBooks = () => {
 //     var available = [];
@@ -97,4 +97,4 @@ const returnBook = () => {
 
 }
 
-borrow('Atomic Habits', 'John Smith');
+borrow('Think and Grow Rich', 'John Smith');
